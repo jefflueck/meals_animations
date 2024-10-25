@@ -53,7 +53,7 @@ class MealsScreen extends StatelessWidget {
         itemBuilder: (ctx, index) => MealItem(
           meal: meals[index],
           onSelectMeal: (meal) {
-            selectMeal(context, meal as Meal);
+            selectMeal(context, meal);
           },
         ),
       );
